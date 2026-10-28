@@ -57,7 +57,7 @@ public class Pokemon {
     @Positive(message = "El peso debe ser positivo")
     private Double peso;
 
-    @Pattern(regexp= "^\\\\d{10}$", message = "El formato del telefono no es valido")
+    @Pattern(regexp = "^\\d{10}$", message = "El formato del telefono no es valido")
     private String telefono;
 
     @AssertTrue(message = "El pokemon debe de estar sano")
